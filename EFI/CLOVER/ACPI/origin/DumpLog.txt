@@ -1,0 +1,187 @@
+10:933  5:069  Found BIOS RSDP at F0140
+10:933  0:000  Printing ACPI tables from RSDP F0140 ...
+10:933  0:000   F0140: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:933  0:000    (Xsdt: AFFA8188, Rsdt: AFFA80C4)
+10:933  0:000    AFFA8188: 'XSDT', 'LGPC', Rev: 1, Len: 276
+10:933  0:000    AFFA80C4: 'RSDT', 'LGPC', Rev: 1, Len: 156
+10:933  0:000    Tables in Xsdt: 30
+10:933  0:000    0. AFFE0000: 'FACP', 'LGPC', Rev: 5, Len: 268
+10:933  0:000        (Dsdt: AFFB4000, Facs: AFE1B000, XDsdt: AFFB4000, XFacs: 0)
+10:933  0:000        AFFB4000: 'DSDT', 'LGPC', Rev: 2, Len: 167230
+10:936  0:002        AFE1B000: 'FACS', Ver: 2, Len: 64
+10:936  0:000    1. AFFF7000: 'SSDT', 'XnSsdt', Rev: 2, Len: 16677
+10:936  0:000    2. AFFF6000: 'SSDT', 'Ther_Xnt', Rev: 2, Len: 1299
+10:936  0:000    3. AFFF1000: 'SSDT', 'FwiTable', Rev: 1, Len: 20064
+10:936  0:000    4. AFFE8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 34423
+10:936  0:000    5. AFFE7000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1219
+10:936  0:000    6. AFFE6000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70
+10:936  0:000    7. AFFE5000: 'TPM2', 'LGPC', Rev: 4, Len: 52
+10:936  0:000    8. AFE30000: 'UEFI', 'LGPC', Rev: 1, Len: 66
+10:936  0:000    9. AFFE1000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12560
+10:936  0:000    10. AFFDF000: 'HPET', 'LGPC', Rev: 1, Len: 56
+10:936  0:000    11. AFFDE000: 'APIC', 'LGPC', Rev: 3, Len: 300
+10:936  0:000    12. AFFDD000: 'MCFG', 'LGPC', Rev: 1, Len: 60
+10:936  0:000    13. AFFB3000: 'SSDT', 'xh_rvp07', Rev: 2, Len: 3790
+10:936  0:000    14. AFFB2000: 'BOOT', 'LGPC', Rev: 1, Len: 40
+10:936  0:000    15. AFFB1000: 'BATB', 'LGPC', Rev: 2, Len: 74
+10:936  0:000    16. AFFAF000: 'PMCT', 'LGPC', Rev: 1, Len: 82
+10:936  0:000    17. AFFAD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+10:936  0:000    18. AFFAB000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 4249
+10:936  0:000    19. AFFAA000: 'LPIT', 'LGPC', Rev: 1, Len: 148
+10:936  0:000    20. AFFA9000: 'WSMT', 'LGPC', Rev: 1, Len: 40
+10:936  0:000    21. AFFFC000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+10:936  0:000    22. AFFA7000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+10:936  0:000    23. AFFA6000: 'DBGP', 'LGPC', Rev: 1, Len: 52
+10:936  0:000    24. AFFA5000: 'DBG2', 'LGPC', Rev: 0, Len: 84
+10:936  0:000    25. AFFA4000: 'MSDM', 'LGPC', Rev: 3, Len: 85
+10:936  0:000    26. AFFA3000: 'DMAR', 'LGPC', Rev: 1, Len: 240
+10:936  0:000    27. AFFA2000: 'FPDT', 'LGPC', Rev: 1, Len: 68
+10:936  0:000    28. AFFA1000: 'BGRT', 'LGPC', Rev: 1, Len: 56
+10:936  0:000    29. AFE16000: 'UEFI', 'LGPC', Rev: 1, Len: 298
+10:936  0:000    Tables in Rsdt: 30
+10:936  0:000    0. AFFE0000: 'FACP', 'LGPC', Rev: 5, Len: 268
+10:936  0:000        (Dsdt: AFFB4000, Facs: AFE1B000, XDsdt: AFFB4000, XFacs: 0)
+10:936  0:000        AFFB4000: 'DSDT', 'LGPC', Rev: 2, Len: 167230
+10:939  0:002        AFE1B000: 'FACS', Ver: 2, Len: 64
+10:939  0:000    1. AFFF7000: 'SSDT', 'XnSsdt', Rev: 2, Len: 16677
+10:939  0:000    2. AFFF6000: 'SSDT', 'Ther_Xnt', Rev: 2, Len: 1299
+10:939  0:000    3. AFFF1000: 'SSDT', 'FwiTable', Rev: 1, Len: 20064
+10:939  0:000    4. AFFE8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 34423
+10:939  0:000    5. AFFE7000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1219
+10:939  0:000    6. AFFE6000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70
+10:939  0:000    7. AFFE5000: 'TPM2', 'LGPC', Rev: 4, Len: 52
+10:939  0:000    8. AFE30000: 'UEFI', 'LGPC', Rev: 1, Len: 66
+10:939  0:000    9. AFFE1000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12560
+10:939  0:000    10. AFFDF000: 'HPET', 'LGPC', Rev: 1, Len: 56
+10:939  0:000    11. AFFDE000: 'APIC', 'LGPC', Rev: 3, Len: 300
+10:939  0:000    12. AFFDD000: 'MCFG', 'LGPC', Rev: 1, Len: 60
+10:939  0:000    13. AFFB3000: 'SSDT', 'xh_rvp07', Rev: 2, Len: 3790
+10:939  0:000    14. AFFB2000: 'BOOT', 'LGPC', Rev: 1, Len: 40
+10:939  0:000    15. AFFB1000: 'BATB', 'LGPC', Rev: 2, Len: 74
+10:939  0:000    16. AFFAF000: 'PMCT', 'LGPC', Rev: 1, Len: 82
+10:939  0:000    17. AFFAD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+10:939  0:000    18. AFFAB000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 4249
+10:939  0:000    19. AFFAA000: 'LPIT', 'LGPC', Rev: 1, Len: 148
+10:939  0:000    20. AFFA9000: 'WSMT', 'LGPC', Rev: 1, Len: 40
+10:939  0:000    21. AFFFC000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+10:939  0:000    22. AFFA7000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+10:939  0:000    23. AFFA6000: 'DBGP', 'LGPC', Rev: 1, Len: 52
+10:939  0:000    24. AFFA5000: 'DBG2', 'LGPC', Rev: 0, Len: 84
+10:939  0:000    25. AFFA4000: 'MSDM', 'LGPC', Rev: 3, Len: 85
+10:939  0:000    26. AFFA3000: 'DMAR', 'LGPC', Rev: 1, Len: 240
+10:939  0:000    27. AFFA2000: 'FPDT', 'LGPC', Rev: 1, Len: 68
+10:939  0:000    28. AFFA1000: 'BGRT', 'LGPC', Rev: 1, Len: 56
+10:939  0:000    29. AFE16000: 'UEFI', 'LGPC', Rev: 1, Len: 298
+10:939  0:000  Found UEFI Acpi 2.0 RSDP at AFFFD014
+10:939  0:000  Saving ACPI tables from RSDP AFFFD014 to EFI\CLOVER\ACPI\origin ...
+10:939  0:000   AFFFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:939  0:000    (Xsdt: AFFA8188, Rsdt: AFFA80C4)
+10:939  0:000    AFFA8188: 'XSDT', 'LGPC', Rev: 1, Len: 276
+10:939  0:000    AFFA80C4: 'RSDT', 'LGPC', Rev: 1, Len: 156
+10:939  0:000    Tables in Xsdt: 30
+10:939  0:000    0. AFFE0000: 'FACP', 'LGPC', Rev: 5, Len: 268
+10:939  0:000        (Dsdt: AFFB4000, Facs: AFE1B000, XDsdt: AFFB4000, XFacs: 0)
+10:939  0:000        AFFB4000: 'DSDT', 'LGPC', Rev: 2, Len: 167230
+10:942  0:002        AFE1B000: 'FACS', Ver: 2, Len: 64
+10:942  0:000    1. AFFF7000: 'SSDT', 'XnSsdt', Rev: 2, Len: 16677
+10:942  0:000    2. AFFF6000: 'SSDT', 'Ther_Xnt', Rev: 2, Len: 1299
+10:942  0:000    3. AFFF1000: 'SSDT', 'FwiTable', Rev: 1, Len: 20064
+10:942  0:000    4. AFFE8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 34423
+10:942  0:000    5. AFFE7000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1219
+10:942  0:000    6. AFFE6000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70
+10:942  0:000    7. AFFE5000: 'TPM2', 'LGPC', Rev: 4, Len: 52
+10:942  0:000    8. AFE30000: 'UEFI', 'LGPC', Rev: 1, Len: 66
+10:942  0:000    9. AFFE1000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12560
+10:942  0:000    10. AFFDF000: 'HPET', 'LGPC', Rev: 1, Len: 56
+10:942  0:000    11. AFFDE000: 'APIC', 'LGPC', Rev: 3, Len: 300
+10:942  0:000    12. AFFDD000: 'MCFG', 'LGPC', Rev: 1, Len: 60
+10:942  0:000    13. AFFB3000: 'SSDT', 'xh_rvp07', Rev: 2, Len: 3790
+10:942  0:000    14. AFFB2000: 'BOOT', 'LGPC', Rev: 1, Len: 40
+10:942  0:000    15. AFFB1000: 'BATB', 'LGPC', Rev: 2, Len: 74
+10:942  0:000    16. AFFAF000: 'PMCT', 'LGPC', Rev: 1, Len: 82
+10:942  0:000    17. AFFAD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+10:942  0:000    18. AFFAB000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 4249
+10:942  0:000    19. AFFAA000: 'LPIT', 'LGPC', Rev: 1, Len: 148
+10:942  0:000    20. AFFA9000: 'WSMT', 'LGPC', Rev: 1, Len: 40
+10:942  0:000    21. AFFFC000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+10:942  0:000    22. AFFA7000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+10:942  0:000    23. AFFA6000: 'DBGP', 'LGPC', Rev: 1, Len: 52
+10:942  0:000    24. AFFA5000: 'DBG2', 'LGPC', Rev: 0, Len: 84
+10:942  0:000    25. AFFA4000: 'MSDM', 'LGPC', Rev: 3, Len: 85
+10:942  0:000    26. AFFA3000: 'DMAR', 'LGPC', Rev: 1, Len: 240
+10:942  0:000    27. AFFA2000: 'FPDT', 'LGPC', Rev: 1, Len: 68
+10:942  0:000    28. AFFA1000: 'BGRT', 'LGPC', Rev: 1, Len: 56
+10:942  0:000    29. AFE16000: 'UEFI', 'LGPC', Rev: 1, Len: 298
+10:942  0:000    Tables in Rsdt: 30
+10:942  0:000    0. AFFE0000: 'FACP', 'LGPC', Rev: 5, Len: 268
+10:942  0:000        (Dsdt: AFFB4000, Facs: AFE1B000, XDsdt: AFFB4000, XFacs: 0)
+10:942  0:000        AFFB4000: 'DSDT', 'LGPC', Rev: 2, Len: 167230
+10:945  0:002        AFE1B000: 'FACS', Ver: 2, Len: 64
+10:945  0:000    1. AFFF7000: 'SSDT', 'XnSsdt', Rev: 2, Len: 16677
+10:945  0:000    2. AFFF6000: 'SSDT', 'Ther_Xnt', Rev: 2, Len: 1299
+10:945  0:000    3. AFFF1000: 'SSDT', 'FwiTable', Rev: 1, Len: 20064
+10:945  0:000    4. AFFE8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 34423
+10:945  0:000    5. AFFE7000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1219
+10:945  0:000    6. AFFE6000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70
+10:945  0:000    7. AFFE5000: 'TPM2', 'LGPC', Rev: 4, Len: 52
+10:945  0:000    8. AFE30000: 'UEFI', 'LGPC', Rev: 1, Len: 66
+10:945  0:000    9. AFFE1000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12560
+10:945  0:000    10. AFFDF000: 'HPET', 'LGPC', Rev: 1, Len: 56
+10:945  0:000    11. AFFDE000: 'APIC', 'LGPC', Rev: 3, Len: 300
+10:945  0:000    12. AFFDD000: 'MCFG', 'LGPC', Rev: 1, Len: 60
+10:945  0:000    13. AFFB3000: 'SSDT', 'xh_rvp07', Rev: 2, Len: 3790
+10:945  0:000    14. AFFB2000: 'BOOT', 'LGPC', Rev: 1, Len: 40
+10:945  0:000    15. AFFB1000: 'BATB', 'LGPC', Rev: 2, Len: 74
+10:945  0:000    16. AFFAF000: 'PMCT', 'LGPC', Rev: 1, Len: 82
+10:945  0:000    17. AFFAD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+10:945  0:000    18. AFFAB000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 4249
+10:945  0:000    19. AFFAA000: 'LPIT', 'LGPC', Rev: 1, Len: 148
+10:945  0:000    20. AFFA9000: 'WSMT', 'LGPC', Rev: 1, Len: 40
+10:945  0:000    21. AFFFC000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+10:945  0:000    22. AFFA7000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+10:945  0:000    23. AFFA6000: 'DBGP', 'LGPC', Rev: 1, Len: 52
+10:945  0:000    24. AFFA5000: 'DBG2', 'LGPC', Rev: 0, Len: 84
+10:945  0:000    25. AFFA4000: 'MSDM', 'LGPC', Rev: 3, Len: 85
+10:945  0:000    26. AFFA3000: 'DMAR', 'LGPC', Rev: 1, Len: 240
+10:945  0:000    27. AFFA2000: 'FPDT', 'LGPC', Rev: 1, Len: 68
+10:945  0:000    28. AFFA1000: 'BGRT', 'LGPC', Rev: 1, Len: 56
+10:945  0:000    29. AFE16000: 'UEFI', 'LGPC', Rev: 1, Len: 298
+10:945  0:000  Found UEFI Acpi 1.0 RSDP at AFFFD000
+10:945  0:000  Printing ACPI tables from RSDP AFFFD000 ...
+10:945  0:000   AFFFD000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+10:945  0:000    (Rsdt: AFFA8000)
+10:945  0:000    AFFA8000: 'RSDT', 'LGPC', Rev: 1, Len: 156
+10:945  0:000    Tables in Rsdt: 30
+10:945  0:000    0. AFFE0000: 'FACP', 'LGPC', Rev: 5, Len: 268
+10:945  0:000        (Dsdt: AFFB4000, Facs: AFE1B000, XDsdt: AFFB4000, XFacs: 0)
+10:945  0:000        AFFB4000: 'DSDT', 'LGPC', Rev: 2, Len: 167230
+10:948  0:002        AFE1B000: 'FACS', Ver: 2, Len: 64
+10:948  0:000    1. AFFF7000: 'SSDT', 'XnSsdt', Rev: 2, Len: 16677
+10:948  0:000    2. AFFF6000: 'SSDT', 'Ther_Xnt', Rev: 2, Len: 1299
+10:948  0:000    3. AFFF1000: 'SSDT', 'FwiTable', Rev: 1, Len: 20064
+10:948  0:000    4. AFFE8000: 'SSDT', 'DptfTabl', Rev: 2, Len: 34423
+10:948  0:000    5. AFFE7000: 'SSDT', 'Tpm2Tabl', Rev: 2, Len: 1219
+10:948  0:000    6. AFFE6000: 'SSDT', 'MeSsdt', Rev: 2, Len: 70
+10:948  0:000    7. AFFE5000: 'TPM2', 'LGPC', Rev: 4, Len: 52
+10:948  0:000    8. AFE30000: 'UEFI', 'LGPC', Rev: 1, Len: 66
+10:948  0:000    9. AFFE1000: 'SSDT', 'SaSsdt', Rev: 2, Len: 12560
+10:948  0:000    10. AFFDF000: 'HPET', 'LGPC', Rev: 1, Len: 56
+10:948  0:000    11. AFFDE000: 'APIC', 'LGPC', Rev: 3, Len: 300
+10:948  0:000    12. AFFDD000: 'MCFG', 'LGPC', Rev: 1, Len: 60
+10:948  0:000    13. AFFB3000: 'SSDT', 'xh_rvp07', Rev: 2, Len: 3790
+10:948  0:000    14. AFFB2000: 'BOOT', 'LGPC', Rev: 1, Len: 40
+10:948  0:000    15. AFFB1000: 'BATB', 'LGPC', Rev: 2, Len: 74
+10:948  0:000    16. AFFAF000: 'PMCT', 'LGPC', Rev: 1, Len: 82
+10:948  0:000    17. AFFAD000: 'SSDT', 'CpuSsdt', Rev: 2, Len: 6062
+10:948  0:000    18. AFFAB000: 'SSDT', 'UsbCTabl', Rev: 2, Len: 4249
+10:948  0:000    19. AFFAA000: 'LPIT', 'LGPC', Rev: 1, Len: 148
+10:948  0:000    20. AFFA9000: 'WSMT', 'LGPC', Rev: 1, Len: 40
+10:948  0:000    21. AFFFC000: 'SSDT', 'HdaDsp', Rev: 2, Len: 321
+10:948  0:000    22. AFFA7000: 'SSDT', 'TbtTypeC', Rev: 2, Len: 1303
+10:948  0:000    23. AFFA6000: 'DBGP', 'LGPC', Rev: 1, Len: 52
+10:948  0:000    24. AFFA5000: 'DBG2', 'LGPC', Rev: 0, Len: 84
+10:948  0:000    25. AFFA4000: 'MSDM', 'LGPC', Rev: 3, Len: 85
+10:948  0:000    26. AFFA3000: 'DMAR', 'LGPC', Rev: 1, Len: 240
+10:948  0:000    27. AFFA2000: 'FPDT', 'LGPC', Rev: 1, Len: 68
+10:948  0:000    28. AFFA1000: 'BGRT', 'LGPC', Rev: 1, Len: 56
+10:948  0:000    29. AFE16000: 'UEFI', 'LGPC', Rev: 1, Len: 298
