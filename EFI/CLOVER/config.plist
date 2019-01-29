@@ -270,6 +270,7 @@
 		<array>
 			<string>SSDT-DiscreteSpoof.aml</string>
 			<string>SSDT-PNLF.aml</string>
+			<string>SSDT-0-XnSsdt.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -277,11 +278,11 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>nv_disable=1 dart=0 kext-dev-mode=1 -cdfon -igfxnohdmi lilucpu=9</string>
+		<string>dart=0 nv_disable=1 -cdfon -igfxnohdmi lilucpu=9 -v kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
 		<string>macOS10142</string>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
