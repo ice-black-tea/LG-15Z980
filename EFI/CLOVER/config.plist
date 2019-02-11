@@ -22,6 +22,8 @@
 				<false/>
 				<key>FixRTC</key>
 				<false/>
+				<key>FixShutdown</key>
+				<true/>
 				<key>FixTMR</key>
 				<false/>
 			</dict>
@@ -199,7 +201,7 @@
 					<key>Comment</key>
 					<string>change _OSI to XOSI</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X09TSQ==
@@ -211,7 +213,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change _STA to XSTA in GPI0</string>
+					<string>change _STA to XSTA in device GPI0 (TouchPad I2C)</string>
 					<key>Disabled</key>
 					<true/>
 					<key>Find</key>
@@ -227,14 +229,40 @@
 					R1BJMA==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _CRS to XCRS in device TPD0 (TouchPad I2C)</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X0NSUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WENSUw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBEMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename TPD0 to TPDX</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					VFBEMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					VFBEWA==
+					</data>
+				</dict>
 			</array>
 		</dict>
-		<key>DisabledAML</key>
-		<array>
-			<string>SSDT.aml</string>
-			<string>SSDT-XCPM.aml</string>
-			<string>SSDT-PluginType1.aml</string>
-		</array>
 		<key>DropTables</key>
 		<array>
 			<dict>
@@ -268,9 +296,11 @@
 		</dict>
 		<key>SortedOrder</key>
 		<array>
+			<string>SSDT-0-XnSsdt.aml</string>
 			<string>SSDT-DiscreteSpoof.aml</string>
 			<string>SSDT-PNLF.aml</string>
-			<string>SSDT-0-XnSsdt.aml</string>
+			<string>SSDT-UIAC.aml</string>
+			<string>SSDT-XOSI.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -278,15 +308,15 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 -cdfon -igfxnohdmi lilucpu=9 -v kext-dev-mode=1</string>
+		<string>dart=0 -igfxnohdmi lilucpu=9 -cdfon -v -gux_defer_usb2 kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
-		<string>macOS10142</string>
+		<string>macOS</string>
 		<key>NeverHibernate</key>
-		<false/>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>5</integer>
+		<integer>-1</integer>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for 10.12.6+ with native KabyLake support</string>
@@ -574,7 +604,7 @@
 			<string>Preboot</string>
 			<string>\EFI\BOOT\BOOTX64.EFI</string>
 			<string>Windows</string>
-			<string>Recovery HD</string>
+			<string>Recovery</string>
 		</array>
 		<key>Mouse</key>
 		<dict>
@@ -606,6 +636,22 @@
 		</dict>
 		<key>#ig-platform-id</key>
 		<string>0x591b0000</string>
+		<key>EDID</key>
+		<dict>
+			<key>Custom</key>
+			<data>
+			AP///////wAw5KgFAAAAAAAbAQSlIhN4Au6Vo1RMmSYPUFQAAAAB
+			AQEBAQEBAQEBAQEBAQEBJDaAoHA4H0AwIDUAWMIQAAAZAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAA/gBMRyBEaXNwbGF5CiAgAAAA/gBMUDE1
+			NldGOS1TUE4xABQ=
+			</data>
+			<key>Inject</key>
+			<true/>
+			<key>ProductID</key>
+			<string>0x5A8</string>
+			<key>VendorID</key>
+			<string>0x30E4</string>
+		</dict>
 		<key>Inject</key>
 		<dict>
 			<key>ATI</key>
@@ -711,7 +757,7 @@
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
+				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
 				AAAAAAAAAAAAAAA=
@@ -777,6 +823,42 @@
 				g/sPkJCQkJCQ
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				SU9LaXQ=
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelLpssI2C</string>
+				<key>Replace</key>
+				<data>
+				SU9LaXM=
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				SU9LaXQ=
+				</data>
+				<key>InfoPlistPatch</key>
+				<true/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelLpssI2CController</string>
+				<key>Replace</key>
+				<data>
+				SU9LaXM=
+				</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -788,10 +870,44 @@
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
+		<key>BiosReleaseDate</key>
+		<string>12/22/2016</string>
+		<key>BiosVendor</key>
+		<string>Apple Inc.</string>
+		<key>BiosVersion</key>
+		<string>MBP131.88Z.0205.B11.1612220123</string>
+		<key>Board-ID</key>
+		<string>Mac-473D31EABEB93F9B</string>
+		<key>BoardManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>BoardType</key>
+		<integer>10</integer>
+		<key>ChassisAssetTag</key>
+		<string>MacBook-Aluminum</string>
+		<key>ChassisManufacturer</key>
+		<string>Apple Inc.</string>
+		<key>ChassisType</key>
+		<string>0x09</string>
+		<key>Family</key>
+		<string>MacBook Pro</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFC0FE136</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
+		<key>LocationInChassis</key>
+		<string>Part Component</string>
+		<key>Manufacturer</key>
+		<string>Apple Inc.</string>
+		<key>Mobile</key>
+		<true/>
 		<key>ProductName</key>
-		<string>MacBookPro14,1</string>
+		<string>MacBookPro13,1</string>
+		<key>SerialNumber</key>
+		<string>C02SLHACGVC1</string>
 		<key>Trust</key>
 		<true/>
+		<key>Version</key>
+		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>

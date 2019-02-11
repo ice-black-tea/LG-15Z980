@@ -3,4 +3,7 @@
 !.gitignore
 !EFI/ 
 !EFI/**
+!Patch/ 
+!Patch/**
+Patch/bak/
 .DS_Store
