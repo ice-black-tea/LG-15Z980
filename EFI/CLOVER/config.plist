@@ -192,6 +192,8 @@
 			</dict>
 			<key>NoOemTableId</key>
 			<false/>
+			<key>PluginType</key>
+			<string>1</string>
 		</dict>
 		<key>SortedOrder</key>
 		<array>
