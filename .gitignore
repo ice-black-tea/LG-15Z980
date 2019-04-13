@@ -4,8 +4,6 @@
 !EFI/ 
 !EFI/**
 EFI/CLOVER/ACPI/origin/
-!Patch/ 
-!Patch/**
 Patch/bak/
 .DS_Store
 ._*
