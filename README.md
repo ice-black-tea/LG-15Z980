@@ -31,6 +31,8 @@ WIFI：无解
 
 ## HIDPI
 
+通过脚本开启hidpi，测试发现分辨率低于1472x828才不会出现雪花，聊胜于无
+
 ```bash
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
+$ sh one-key-hidpi/one-key-hidpi.sh
 ```

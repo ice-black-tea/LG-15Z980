@@ -3,6 +3,8 @@
 !.gitignore
 !EFI/ 
 !EFI/**
+!one-key-hidpi/
+!one-key-hidpi/**
 EFI/CLOVER/ACPI/origin/
 Patch/bak/
 .DS_Store
