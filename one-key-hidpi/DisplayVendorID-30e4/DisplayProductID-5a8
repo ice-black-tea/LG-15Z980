@@ -3,85 +3,40 @@
 <plist version="1.0">
 <dict>
 	<key>DisplayProductID</key>
-	<integer>1448</integer>
+	<integer>45061</integer>
 	<key>DisplayVendorID</key>
-	<integer>12516</integer>
+	<integer>1552</integer>
 	<key>IODisplayEDID</key>
 	<data>
-	AP///////wAGEHycAAAAAAAbAQSQIhNgAm+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEB
-	AQEBJDaAoHA4H0AwIDUAWMIQAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAA/gBMRyBEaXNw
-	bGF5CiAgAAAA/gBMUDE1NldGOS1TUE4xADE=
+	AP///////wAGEAWwAAAAABwWAQS1MBt4Im+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEB
+	AQEBJDaAoHA4H0AwIDUAWMIQAAAZAAAA/ABpTWFjCiAgICAgICAgAAAA/gBMRyBEaXNw
+	bGF5CiAgAAAA/gBMUDE1NldGOS1TUE4xAIo=
 	</data>
 	<key>scale-resolutions</key>
 	<array>
 		<data>
-		AAANIAAAB2IA
+		AAAPAAAACHAAAAAB
 		</data>
 		<data>
-		AAALQAAABlQA
+		AAAPAAAACHAAAAABACAAAA==
 		</data>
 		<data>
-		AAAKAAAABaAA
+		AAANIAAAB2IAAAAB
 		</data>
 		<data>
-		AAAIAAAABIAA
+		AAANIAAAB2IAAAABACAAAA==
 		</data>
 		<data>
-		AAAKAAAABaAAAAABACAAAA==
+		AAALgAAABngAAAAB
 		</data>
 		<data>
-		AAAHgAAABDgAAAABACAAAA==
+		AAALgAAABngAAAABACAAAA==
 		</data>
 		<data>
-		AAAGkAAAA7AAAAAB
+		AAAG4AAAA94AAAAB
 		</data>
 		<data>
-		AAANIAAAB2IAAAAJAKAAAA==
-		</data>
-		<data>
-		AAANAAAAB1AAAAAJAKAAAA==
-		</data>
-		<data>
-		AAAM4AAABz4AAAAJAKAAAA==
-		</data>
-		<data>
-		AAAMwAAABywAAAAJAKAAAA==
-		</data>
-		<data>
-		AAAMoAAABxoAAAAJAKAAAA==
-		</data>
-		<data>
-		AAAMgAAABwgAAAAJAKAAAA==
-		</data>
-		<data>
-		AAAMYAAABvYAAAAJAKAAAA==
-		</data>
-		<data>
-		AAAMQAAABuQAAAAJAKAAAA==
-		</data>
-		<data>
-		AAAMIAAABtIAAAAJAKAAAA==
-		</data>
-		<data>
-		AAAMAAAABsAAAAAJAKAAAA==
-		</data>
-		<data>
-		AAAL4AAABq4AAAAJAKAAAA==
-		</data>
-		<data>
-		AAALwAAABpwAAAAJAKAAAA==
-		</data>
-		<data>
-		AAALoAAABooAAAAJAKAAAA==
-		</data>
-		<data>
-		AAALgAAABngAAAAJAKAAAA==
-		</data>
-		<data>
-		AAALYAAABmYAAAAJAKAAAA==
-		</data>
-		<data>
-		AAALQAAABlQAAAAJAKAAAA==
+		AAAG4AAAA94AAAABACAAAA==
 		</data>
 	</array>
 	<key>target-default-ppmm</key>

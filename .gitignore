@@ -5,7 +5,8 @@
 !EFI/**
 !one-key-hidpi/
 !one-key-hidpi/**
+!img/
+!img/**
 EFI/CLOVER/ACPI/origin/
-Patch/bak/
 .DS_Store
 ._*

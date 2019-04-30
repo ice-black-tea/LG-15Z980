@@ -70,7 +70,7 @@ function install() {
     backup
     copy
     fixpermission
-    echo 'Wonderful! This is the end of the installation, please reboot and choose 1472x828! '!'
+    echo 'Wonderful! This is the end of the installation, please reboot and choose 1472x828! !'
 }
 
 # Uninstall
