@@ -18,7 +18,7 @@
 - [x] 显卡：正常，hdmi输出正常（ig-platform-id：00001659）
 - [x] WIFI：通过m-key转接板插在右边m.2插槽，免驱，AirDrop可用
 - [x] 蓝牙：d+/d-线接到外置usb接口，免驱
-- [x] 声卡：正常，hdmi、耳机输出正常，siri耳背（layout-id：21）
+- [x] 声卡：正常，hdmi、耳机输出正常（layout-id：21）
 - [x] 睡眠唤醒：正常，唤醒正常
 - [x] 键盘：正常
 - [x] 电量显示：正常
