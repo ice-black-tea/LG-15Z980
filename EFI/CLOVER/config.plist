@@ -15,15 +15,15 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
-				<true/>
+				<false/>
 				<key>AddMCHC</key>
-				<true/>
+				<false/>
 				<key>AddPNLF</key>
 				<true/>
 				<key>Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 				<key>FixADP1</key>
-				<true/>
+				<false/>
 				<key>FixHPET</key>
 				<false/>
 				<key>FixIPIC</key>
@@ -31,7 +31,7 @@
 				<key>FixRTC</key>
 				<false/>
 				<key>FixRegions</key>
-				<true/>
+				<false/>
 				<key>FixShutdown</key>
 				<false/>
 				<key>FixTMR</key>
