@@ -1,5 +1,9 @@
 # LG Gram 15Z980 for macOS Mojave
 
+## 写在前面
+
+该项目无重大更新不再维护，目前版本绝大部分配置均参考自[https://github.com/ShiningXu/LG-Gram-macOS](https://github.com/ShiningXu/LG-Gram-macOS)
+
 ## 配置信息
 
 | 规格     | 详细信息                      |
@@ -23,7 +27,7 @@
 - [x] 键盘：正常
 - [x] 电量显示：正常
 - [x] 摄像头：正常
-- [x] 触摸板：单指识别5次之后会有3次不能识别，最多支持4指，常用手势可用，后续就等驱动更新了
+- [x] 触摸板：正常
 - [ ] 指纹：禁用了
 - [ ] 读卡器：没管它
 
